@@ -6,6 +6,7 @@ import { Preloader } from './Preloader'
 import { ScrollToTop } from './ScrollToTop'
 import './style.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Home } from './Home/Home'
 
 function App() {
 	const [load, upadateLoad] = useState(true)
@@ -24,6 +25,7 @@ function App() {
 			<div className='App' id={load ? 'no-scroll' : 'scroll'}>
 				<NavBar />
 				<ScrollToTop />
+				<Home />
 				hi
 			</div>
 		</Router>
