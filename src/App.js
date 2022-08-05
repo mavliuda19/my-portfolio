@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react'
-import { BrowserRouter as Router } from 'react-router-dom'
 import './App.css'
-import { NavBar } from './Navbar'
-import { Preloader } from './Preloader'
-import { ScrollToTop } from './ScrollToTop'
+import { NavBar } from './layout/Navbar'
+import { Preloader } from './layout/Preloader'
 import './style.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Home } from './Home/Home'
+import { Home } from './components/Home/Home'
 
 function App() {
 	const [load, upadateLoad] = useState(true)
@@ -23,7 +21,6 @@ function App() {
 			<Preloader load={load} />
 			<div className='App' id={load ? 'no-scroll' : 'scroll'}>
 				<NavBar />
-				{/* <ScrollToTop /> */}
 				<Home />
 			</div>
 		</>

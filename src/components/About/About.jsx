@@ -1,10 +1,8 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import myImg from '../assets/avatar.png'
+import myImg from '../../assets/avatar.png'
 import Tilt from 'react-parallax-tilt'
-import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from 'react-icons/ai'
-import { FaLinkedinIn } from 'react-icons/fa'
-import { Techstack } from './Skills'
+import { Techstack } from './TechStack'
 
 export const About = () => {
 	return (
@@ -14,18 +12,21 @@ export const About = () => {
 					<Row>
 						<Col md={8} className='home-about-description'>
 							<h1 style={{ fontSize: '2.6em' }}>
-								LET ME
-								<span className='purple'> INTRODUCE </span>
-								MYSELF
+								<span className='purple'>ABOUT ME </span>
 							</h1>
 							<p className='home-about-body'>
-								I fell in love with programming and I have at
-								least learnt something, I think… 🤷‍♂️
+								I’m a Front-End Developer located in Kyrgyzstan.
 								<br />
-								<br />I am fluent in classics like
+								<br />I have a serious passion for &nbsp;
 								<i>
 									<b className='purple'>
-										C++, Javascript and Python.
+										UI effects, animation &nbsp;
+									</b>
+								</i>
+								and creating &nbsp;
+								<i>
+									<b className='purple'>
+										intuitive, dynamic user experiences.
 									</b>
 								</i>
 								<br />
@@ -33,7 +34,7 @@ export const About = () => {
 								My field of Interest's are building new &nbsp;
 								<i>
 									<b className='purple'>
-										Web Technologies and Products
+										Web Technologies and Products &nbsp;
 									</b>
 									and also in areas related to
 									<b className='purple'>

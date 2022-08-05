@@ -278,6 +278,7 @@ button:focus {
 
 .main-name {
 	color: #cd5ff8;
+	margin-left: 10px;
 }
 
 .Typewriter__wrapper {

@@ -1,17 +1,15 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { About } from '../About/About'
-import homeLogo from '../assets/home-main.png'
-import Contacts from '../Contact/Contacts'
-import Projects from '../Project/Projects'
-// import { Particle } from './Particle'
+import homeLogo from '../../assets/home-main.png'
+import { Contacts } from '../Contact/Contacts'
+import { Projects } from '../Project/Projects'
 import { Type } from './Type'
 
 export const Home = () => {
 	return (
 		<section>
 			<Container fluid className='home-section' id='home'>
-				{/* <Particle /> */}
 				<Container className='home-content'>
 					<Row>
 						<Col md={7} className='home-header'>
@@ -28,14 +26,12 @@ export const Home = () => {
 									👋🏻
 								</span>
 							</h1>
-
 							<h1 className='heading-name'>
 								I'M
 								<strong className='main-name'>
 									Mavliuda Baktyiar kyzy
 								</strong>
 							</h1>
-
 							<div style={{ padding: 50, textAlign: 'left' }}>
 								<Type />
 							</div>
