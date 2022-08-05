@@ -155,18 +155,18 @@ button:focus {
 	width: 2.5em !important;
 }
 
-.navbar-nav .nav-link {
+.navbar-nav span {
 	color: white !important;
 	padding-right: 1rem !important;
 	padding-left: 1rem !important;
+	cursor: pointer;
 }
-
-.nav-link {
-	padding: 0.8rem 1rem !important;
+.navbar-nav .nav-item {
+	padding: 0.8rem 0.7rem !important;
 }
 @media (max-width: 767px) {
-	.nav-link {
-		padding: 0.7rem 1rem !important;
+	.navbar-nav span {
+		padding: 0.8rem 1rem !important;
 	}
 }
 
@@ -175,14 +175,15 @@ button:focus {
 	margin-left: 20px;
 }
 
-.navbar-nav .nav-item a {
+.navbar-nav .nav-item span {
 	font-weight: 400;
 	transition: all 0.3s ease-out 0s;
 	position: relative;
+	top: 15px;
 	z-index: 1;
 }
 
-.navbar-nav .nav-item a::after {
+.navbar-nav .nav-item span::after {
 	content: '';
 	position: relative;
 	display: block;
@@ -191,12 +192,12 @@ button:focus {
 	border-radius: 16px;
 	background: #c95bf5;
 	bottom: 1px;
-	left: 0;
+	left: 10px;
 	z-index: -1;
 	transition: all 0.3s ease-out 0s;
 }
 
-.navbar-nav .nav-item a:hover::after {
+.navbar-nav .nav-item span:hover::after {
 	width: 100%;
 }
 
@@ -302,7 +303,7 @@ button:focus {
 
 .myAvtar {
 	justify-content: center !important;
-	padding-top: 9em !important;
+	padding-top: 5em !important;
 }
 
 @media (max-width: 767px) {
@@ -315,7 +316,7 @@ button:focus {
 .home-about-section {
 	position: relative;
 	padding-bottom: 70px !important;
-	padding-top: 70px !important;
+	/* padding-top: 70px !important; */
 }
 
 .home-about-description {
@@ -344,15 +345,16 @@ button:focus {
 	position: relative !important;
 	padding-inline-start: 0 !important;
 }
-
+.home-about-social h1 {
+	font-size: 3rem;
+}
 .home-social-icons {
 	position: relative !important;
 	display: inline-block !important;
-	width: 40px !important;
-	height: 40px !important;
+	width: 50px !important;
+	height: 50px !important;
 	text-align: center !important;
-	font-size: 1.2em !important;
-	line-height: 2em !important;
+	font-size: 2em !important;
 	background: rgba(255, 255, 255, 0.972) !important;
 	border-radius: 50% !important;
 	transition: 0.5s !important;
@@ -397,7 +399,7 @@ button:focus {
 /* --------- */
 .project-section {
 	position: relative !important;
-	padding-top: 150px !important;
+	padding-top: 80px !important;
 	padding-bottom: 30px !important;
 	background-image: var(--section-background-color) !important;
 }
@@ -409,7 +411,6 @@ button:focus {
 	padding-right: 25px !important;
 	height: auto !important;
 }
-
 .project-card-view {
 	box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
 	color: white !important;
@@ -456,9 +457,9 @@ button:focus {
 }
 
 .card-img-top {
-	padding: 20px !important;
 	opacity: 0.8 !important;
 	border-radius: 10px !important;
+	width: 400px;
 }
 
 .blog-img {
@@ -484,7 +485,7 @@ button:focus {
 }
 .project-heading {
 	color: white !important;
-	font-size: 2.3em !important;
+	font-size: 2.5em !important;
 	font-weight: 500 !important;
 	padding-top: 10px !important;
 }
@@ -499,7 +500,9 @@ button:focus {
 	background-image: var(--section-background-color) !important;
 	color: white !important;
 }
-
+.tech-section {
+	padding-top: 20px;
+}
 .tech-icons {
 	font-size: 4.5em !important;
 	margin: 15px !important;

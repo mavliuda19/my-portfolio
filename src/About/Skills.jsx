@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
-import { CgCPlusPlus } from 'react-icons/cg'
 import {
 	DiJavascript1,
 	DiReact,
@@ -17,18 +16,24 @@ import {
 	SiRedux,
 	SiStyledcomponents,
 	SiSass,
-	SiVisualstudio,
+	SiFigma,
 } from 'react-icons/si'
 
 export const Techstack = () => {
 	return (
-		<Container>
+		<Container className='tech-section'>
 			<h1 className='project-heading'>
 				<strong className='purple'>Technologies </strong>
 				and
 				<strong className='purple'> Tools </strong>
 			</h1>
-			<Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
+			<Row
+				style={{
+					justifyContent: 'center',
+					paddingBottom: '50px',
+					paddingTop: '30px',
+				}}
+			>
 				<Col xs={4} md={2} className='tech-icons'>
 					<DiHtml5 />
 				</Col>
@@ -56,6 +61,9 @@ export const Techstack = () => {
 				</Col>
 				<Col xs={4} md={2} className='tech-icons'>
 					<DiBootstrap />
+				</Col>
+				<Col xs={4} md={2} className='tech-icons'>
+					<SiFigma style={{ width: '60px' }} />
 				</Col>
 				<Col xs={4} md={2} className='tech-icons'>
 					<DiGit />

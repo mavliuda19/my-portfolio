@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { About } from '../About/About'
 import homeLogo from '../assets/home-main.png'
 import Contacts from '../Contact/Contacts'
 import Projects from '../Project/Projects'
 // import { Particle } from './Particle'
-// import Home2 from './Home2'
 import { Type } from './Type'
 
 export const Home = () => {
@@ -20,7 +19,7 @@ export const Home = () => {
 								style={{ paddingBottom: 15 }}
 								className='heading'
 							>
-								Hi There!{' '}
+								Hi There!
 								<span
 									className='wave'
 									role='img'
@@ -33,7 +32,6 @@ export const Home = () => {
 							<h1 className='heading-name'>
 								I'M
 								<strong className='main-name'>
-									{' '}
 									Mavliuda Baktyiar kyzy
 								</strong>
 							</h1>
@@ -42,7 +40,6 @@ export const Home = () => {
 								<Type />
 							</div>
 						</Col>
-
 						<Col md={5} style={{ paddingBottom: 20 }}>
 							<img
 								src={homeLogo}

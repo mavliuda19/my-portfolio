@@ -1,11 +1,11 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from 'react-icons/ai'
-import { FaLinkedinIn } from 'react-icons/fa'
+import { AiFillGithub, AiFillInstagram } from 'react-icons/ai'
+import { FaLinkedinIn, FaTelegram } from 'react-icons/fa'
 
 const Contacts = () => {
 	return (
-		<Container>
+		<Container id='contacts'>
 			<Row>
 				<Col md={12} className='home-about-social'>
 					<h1>FIND ME ON</h1>
@@ -16,7 +16,7 @@ const Contacts = () => {
 					<ul className='home-about-social-links'>
 						<li className='social-icons'>
 							<a
-								href='https://github.com/soumyajit4419'
+								href='https://github.com/mavliuda19'
 								target='_blank'
 								rel='noreferrer'
 								className='icon-colour  home-social-icons'
@@ -26,17 +26,17 @@ const Contacts = () => {
 						</li>
 						<li className='social-icons'>
 							<a
-								href='https://twitter.com/Soumyajit4419'
+								href='https://t.me/mavliuda19'
 								target='_blank'
 								rel='noreferrer'
 								className='icon-colour  home-social-icons'
 							>
-								<AiOutlineTwitter />
+								<FaTelegram />
 							</a>
 						</li>
 						<li className='social-icons'>
 							<a
-								href='https://www.linkedin.com/in/soumyajit4419/'
+								href='https://www.linkedin.com/in/mavliuda-baktyiar-kyzy-643104244/'
 								target='_blank'
 								rel='noreferrer'
 								className='icon-colour  home-social-icons'
@@ -46,7 +46,7 @@ const Contacts = () => {
 						</li>
 						<li className='social-icons'>
 							<a
-								href='https://www.instagram.com/s.o.u.m.y.a_j.i.t/'
+								href='https://www.instagram.com/mavvvll8/'
 								target='_blank'
 								rel='noreferrer'
 								className='icon-colour home-social-icons'

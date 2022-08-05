@@ -18,17 +18,15 @@ function App() {
 
 		return () => clearTimeout(timer)
 	}, [])
-
 	return (
-		<Router>
+		<>
 			<Preloader load={load} />
 			<div className='App' id={load ? 'no-scroll' : 'scroll'}>
 				<NavBar />
-				<ScrollToTop />
+				{/* <ScrollToTop /> */}
 				<Home />
-				hi
 			</div>
-		</Router>
+		</>
 	)
 }
 

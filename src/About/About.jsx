@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import myImg from '../assets/avatar.png'
 import Tilt from 'react-parallax-tilt'
@@ -14,8 +14,8 @@ export const About = () => {
 					<Row>
 						<Col md={8} className='home-about-description'>
 							<h1 style={{ fontSize: '2.6em' }}>
-								LET ME{' '}
-								<span className='purple'> INTRODUCE </span>{' '}
+								LET ME
+								<span className='purple'> INTRODUCE </span>
 								MYSELF
 							</h1>
 							<p className='home-about-body'>
@@ -25,8 +25,7 @@ export const About = () => {
 								<br />I am fluent in classics like
 								<i>
 									<b className='purple'>
-										{' '}
-										C++, Javascript and Python.{' '}
+										C++, Javascript and Python.
 									</b>
 								</i>
 								<br />
@@ -34,9 +33,9 @@ export const About = () => {
 								My field of Interest's are building new &nbsp;
 								<i>
 									<b className='purple'>
-										Web Technologies and Products{' '}
-									</b>{' '}
-									and also in areas related to{' '}
+										Web Technologies and Products
+									</b>
+									and also in areas related to
 									<b className='purple'>
 										Deep Learning and Natural Launguage
 										Processing.
@@ -45,18 +44,16 @@ export const About = () => {
 								<br />
 								<br />
 								Whenever possible, I also apply my passion for
-								developing products with{' '}
+								developing products with
 								<b className='purple'>Node.js</b> and
 								<i>
 									<b className='purple'>
-										{' '}
 										Modern Javascript Library and Frameworks
 									</b>
 								</i>
 								&nbsp; like
 								<i>
 									<b className='purple'>
-										{' '}
 										React.js and Next.js
 									</b>
 								</i>
@@ -67,8 +64,8 @@ export const About = () => {
 								<img
 									style={{
 										borderRadius: '50%',
-										width: '330px',
-										height: '330px',
+										width: '400px',
+										height: '390px',
 									}}
 									src={myImg}
 									className='img-fluid'
