@@ -36,26 +36,22 @@ export const About = () => {
 									<b className='purple'>
 										Web Technologies and Products &nbsp;
 									</b>
-									and also in areas related to
-									<b className='purple'>
-										Deep Learning and Natural Launguage
-										Processing.
-									</b>
 								</i>
 								<br />
 								<br />
-								Whenever possible, I also apply my passion for
-								developing products with
-								<b className='purple'>Node.js</b> and
+								Whenever possible, I also apply my passion to
+								product development with
+								<b className='purple'> &nbsp;Node.js</b> and
 								<i>
 									<b className='purple'>
-										Modern Javascript Library and Frameworks
+										&nbsp;Modern Javascript Library and
+										Frameworks
 									</b>
 								</i>
-								&nbsp; like
+								&nbsp; such as
 								<i>
 									<b className='purple'>
-										React.js and Next.js
+										&nbsp;React.js and Next.js
 									</b>
 								</i>
 							</p>
